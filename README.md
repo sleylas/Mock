@@ -1,10 +1,22 @@
-Ustanavlivaem zaranee node.js
-Odin raz ustanavlivaem Jest framework npminstall --save-dev jest, posle cego on ustanavlivaetsa, i bolshe ne nado bivaet eto delat.
-Sozdaem papku
-Otkrivaem terminal, inicialiiruem proekt npm init, proxodim po voprosam, "test- jest", ukazivaem ssilku na repozitoriy, sozdanniy zranee, avtora najimaem OK
-Poluchaem package.json s zapolnennimi polami, kotorie mojno izmenat
-Dla testov:
-Sozdaem file.js. Zapisivaem funkciyu i eksportiruem- module.exports = sum;
-Sozdaem sleduyuwiy file s nazvaniem test.js v kotoriy importiruem exportiruemiy put- const sum = require("./file.js")
-S pomowyu komandi npm run test v terminale zapuskaem testi s rezultatom Passed/Failed
+
+# ДЗ 9.4
+- Устанавливаем заранее  **node.js**
+
+- Устанавливаем один раз Jest framework **npminstall --save-dev jest**, после чего не надо бывает его уже запускать.
+
+- Создаем папку
+
+- Окрываем терминал, инициализируем проект **npm init**, проходим по вопросам, указываем в **test- jest"**, ссылку на репозиторий, созданный заранее, автора нажимаем OK
+Получаем **package.json** с заполненными полями, которые можно изменять.
+
+# <sub>Для тестов:</sub>
+
+- Создаем file.js.Записываем функцию и экспортируем-  **module.exports = sum;**
+
+- Создаем следующий file с названием  **test.js** в который импортируем экспортируемый путь- **const sum = require("./file.js")**
+
+- С помощью команды npm run test в терминале  запускаем тесты с результатом Passed/Failed
+  
+
+
 
